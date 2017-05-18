@@ -15,11 +15,7 @@ pip install django-rszio
 1. Add to `INSTALLED_APPS` in `settings.py`
 2. Add the include to urlpatterns in `urls.py`
    ```
-   urlpatterns = [
-      ...
-      url(r'^media/', include('rszio.urls')),
-      ...
-   ]
+   urlpatterns = [ url(r'^media/', include('rszio.urls')), ]
    ```
 3. Load the template tag into a template `{% load rszio %}`
 4. Use the `image` tag. `{% image 'path/to/image.jpg' width=100 rotate=10 %}`

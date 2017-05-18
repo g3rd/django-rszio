@@ -7,6 +7,8 @@ setup(
     name='django-rszio',
     author='Chad Shryock',
     author_email='chad@keystone.works',
+    description='Django wrapper for RSZ.IO',
+    license='MIT',
     version=version,
     packages=find_packages(),
     include_package_data=True,

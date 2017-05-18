@@ -12,7 +12,7 @@ pip install django-rszio
 
 ## Usage
 
-1. Add to `INSTALLED_APPS` in `settings.py`
+1. Add to `INSTALLED_APPS` in `settings.py` `'rszio',`
 2. Add the include to urlpatterns in `urls.py`
    ```
    urlpatterns = [ url(r'^media/', include('rszio.urls')), ]

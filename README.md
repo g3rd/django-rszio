@@ -78,3 +78,7 @@ django-rszio>=1.0.0,<2.0
 ```
 django-rszio>=1.0.0,<1.1
 ```
+
+## Release Notes
+
+This project is using GitHub's release feature. Find the release notes here [https://github.com/g3rd/django-rszio/releases](https://github.com/g3rd/django-rszio/releases)
